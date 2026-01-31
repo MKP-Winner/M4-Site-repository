@@ -24,7 +24,7 @@ function setupForm() {
       document.getElementById("photoNum").value = 1;
       document.getElementById("photoHrs").value = 2;
 
-      document.getElementById("makebook").checked = false;
+      document.getElementById("makeBook").checked = false;
       document.getElementById("photoRights").checked = false;
       document.getElementById("photoDist").value = 0;
 
@@ -47,7 +47,7 @@ function getEstimate() {
       let totalCost = 0;
       let photographers =document.getElementById("photoNum").value;
       let hours = document.getElementById("photoHrs").value;
-      let distance = document.getElementById("photDist").value;
+      let distance = document.getElementById("photoDist").value;
       let buyBook = document.getElementById("makeBook").checked;
       let buyRights = document.getElementById("photoRights").checked;
 
